@@ -1,23 +1,24 @@
 #menuPrincipal{
     border-width: 0px;
+    background-color: aqua;
     width: 20%;
-    border-top-color: red;
-    border: 5px red ridge;
+    border: 5px blue ridge;
     float: left;
 }
 
 #contenido {
     width: 35%;
-    /*background-color: aqua;*/
+    background-color: aqua;
     margin: 0px 0px 0px 5px;
     padding: 5px 20px 5px 20px;
-    border: 5px red ridge;
+    border: 5px blue ridge;
     float: left;
 }
 
 #tabla{
     width: 34%;
+    background-color: aqua;
     margin: 0px 0px 0px 5px;
     float: left;
-    border: 5px red ridge;
+    border: 5px blue ridge;
 }

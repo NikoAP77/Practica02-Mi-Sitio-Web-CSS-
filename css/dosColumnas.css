@@ -1,0 +1,16 @@
+#menuPrincipal{
+    border-width: 0px;
+    background-color: aqua;
+    width: 20%;
+    border: 5px blue ridge;
+    float: left;
+}
+
+#contenido {
+    width: 75%;
+    background-color: aqua;
+    margin: 0px 0px 0px 5px;
+    padding: 5px 20px 5px 20px;
+    border: 5px blue ridge;
+    float: left;
+}
