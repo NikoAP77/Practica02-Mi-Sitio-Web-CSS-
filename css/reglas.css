@@ -55,3 +55,15 @@ a:hover{
 a:active{
     color: black;
 }
+
+.menu{
+    background: darkolivegreen;
+}
+
+.menu ul{
+    background: darkolivegreen;
+    padding-top: 5px;
+    border-radius: 15px;
+}
+
+
