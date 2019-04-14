@@ -32,3 +32,26 @@ h3{
     font-size: 3ch;
     font-style: unset;     
 }
+
+a{
+    color: blue;
+    text-decoration: darkturquoise;
+    animation: both;
+}
+
+a:link{
+    color: #000;
+}
+
+a:visited{
+    color: deeppink;
+    background-color: cornsilk;
+
+}
+
+a:hover{
+    background-color: yellow;
+}
+a:active{
+    color: black;
+}
