@@ -1,0 +1,9 @@
+/*Selector para fondo de las paginas web*/
+#fondo{
+    background-image: url(../imagenes/fondo.png); 
+}
+
+.imagen{
+    width: 450px;
+    height: 450px;
+}
