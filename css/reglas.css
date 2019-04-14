@@ -7,3 +7,28 @@
     width: 450px;
     height: 450px;
 }
+
+h1{
+    color: black;
+    font-weight: initial;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 6ch;
+    font-style: italic;  
+}
+
+h2{
+    color: white;
+    font-weight: initial;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3ch;
+    font-style: oblique;     
+}
+
+h3{
+    color: tomato;
+    font-weight: initial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: unset;
+    font-size: 3ch;
+    font-style: unset;     
+}
