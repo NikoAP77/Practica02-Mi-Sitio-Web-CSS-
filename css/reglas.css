@@ -31,6 +31,10 @@
     height: 450px;
 }
 
+#fondo1{
+    background-image: url(../imagenes/fondo.jpg); 
+}
+
 h1{
     color: black;
     font-weight: initial;
@@ -38,7 +42,6 @@ h1{
     font-size: 6ch;
     font-style: italic;  
 }
-
 h2{
     color: white;
     font-weight: initial;
@@ -46,7 +49,6 @@ h2{
     font-size: 3ch;
     font-style: oblique;     
 }
-
 h3{
     color: tomato;
     font-weight: initial;
@@ -57,7 +59,7 @@ h3{
 }
 
 a{
-    color: blue;
+    color:#1777FF;
     text-decoration: darkturquoise;
     animation: both;
 }
@@ -67,13 +69,13 @@ a:link{
 }
 
 a:visited{
-    color: deeppink;
-    background-color: cornsilk;
+    color: #EA35FF;
+    background-color: #D1DDFF;
 
 }
 
 a:hover{
-    background-color: yellow;
+    background-color:#FCFF68;
 }
 
 a:active{
@@ -84,7 +86,7 @@ a:checked{
     color:darksalmon;
 }
 
-a:dir{
+a:empty{
     color: gainsboro;
 }
 
@@ -185,7 +187,7 @@ p a{color: cornflowerblue}
     margin-top: 10px;    
     margin-right: 10px;
     border-width:10px;    
-    padding: 20px,20px; 
+    padding: 20px 20px; 
     border: 5px blue ridge;
     padding: 10px 200px 10px 200px;
 
