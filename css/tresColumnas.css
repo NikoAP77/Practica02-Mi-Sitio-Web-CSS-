@@ -55,3 +55,8 @@
     border-left-style: double;     
     float:left;
 }
+
+.imagenes{  
+    width: 450px; 
+    height: 450px;
+} 

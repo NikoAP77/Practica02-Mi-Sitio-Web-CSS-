@@ -1,6 +1,29 @@
 /*Selector para fondo de las paginas web*/
-#fondo{
-    background-image: url(../imagenes/fondo.png); 
+#fondo1{
+    background-image: url(../imagenes/fondo.jpg); 
+}
+
+#fondo2{
+    background-image: url(../imagenes/fondo2.jpg); 
+}
+
+#fondo3{
+    background-image: url(../imagenes/fondo3.jpg); 
+}
+
+#fondo4{
+    background-image: url(../imagenes/fondo4.jpg); 
+}
+
+#fondo5{
+    background-image: url(../imagenes/fondo5.jpg); 
+}
+
+#fondo6{
+    background-image: url(../imagenes/fondo6.jpg); 
+}
+#fondo7{
+    background-image: url(../imagenes/fondo7.jpg); 
 }
 
 .imagen{
@@ -52,6 +75,7 @@ a:visited{
 a:hover{
     background-color: yellow;
 }
+
 a:active{
     color: black;
 }
@@ -66,4 +90,16 @@ a:active{
     border-radius: 15px;
 }
 
+.centro{
+    background-position: 50% 50%;
+}
 
+/*       28     */
+
+.titulo{ 
+    color: olivedrab; 
+    text-decoration: unset;  
+    font-family: cursive; 
+    line-height: 50px;   
+    font-size: 20px;
+} 
