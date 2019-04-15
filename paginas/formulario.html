@@ -4,11 +4,11 @@
 <head>
     <!--Pagina principal 
         Autor: Nicolas Anazco (nikoap77)
-        Fecha:07 de abril del 2019
+        Fecha:14 de abril del 2019
 
-        filename: reptiles.html
+        filename: formulario.html
     -->
-    <title>Reptiles</title>
+    <title>Formulario</title>
     <meta charset="utf-8" />
 </head>
 
@@ -27,35 +27,27 @@
                     <li><a href="reptiles.html">Reptiles</a></li>
                     <li><a href="peces.html">Peces</a></li>
                     <li><a href="formulario.html">Formulario</a></li>
-
                 </ul>
             </nav>
         </section>
     </header>
 
-    <section id="contenido">
-        <h1>&nbsp;</h1>
-        <article>
-            <h2>Reptiles</h2>
+    <form id="contenido">
+        <p>Nombre: <input type="nombre" name="nombre" size="40" placeholder="Escriba su nombre"></p>
+        <p>Correo: <input type="correo" name="correo" min="1900" placeholder="Escriba su correo"></p>
+        <p>Mensaje: <input type="mensaje" name="mensaje" min="1900" placeholder="Escribe su mensaje"></p>
 
-            <p><strong>Los reptiles</strong> (Reptilia) son una clase parafilética de animales vertebrados amniotas
-                provistos de escamas epidérmicas de queratina. Fueron muy abundantes en el Mesozoico,
-                época en la que surgieron los dinosaurios, pterosaurios, ictiosaurios, plesiosaurios y
-                mosasaurios. Según la taxonomía tradicional los reptiles son considerados una clase, pero
-                según la sistemática cladística, son un grupo parafilético, por tanto sin valor taxonómico;
-                en su lugar se ha preferido el uso del clado Sauropsida por ser monofilético.
-            </p>
-            <aside>
-                <img src="../imagenes/reptil1.png" alt="" />
-            </aside>
-        </article>
-    </section>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+
     <footer id="footer">
         <p>Nicolas Augusto Anazco Pereira &#8227; Universidad Politecnica Salesiana &#8227;
             Email: <a href="mailto:nanazco@est.ups.edu.ec">nanazco@est.ups.edu.ec</a> &#8227;
             Telf: <a href="098124115">0981241115</a>&#8227; &#169; Todos los derechos reservados</p>
     </footer>
-</body>
 
+</body>
 
 </html>
