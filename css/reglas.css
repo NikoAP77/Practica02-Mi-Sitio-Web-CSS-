@@ -80,6 +80,17 @@ a:active{
     color: black;
 }
 
+a:checked{
+    color:darksalmon;
+}
+
+a:dir{
+    color: gainsboro;
+}
+
+a:focus{
+    color: #000;
+}
 .menu{
     background: darkolivegreen;
 }
@@ -94,8 +105,6 @@ a:active{
     background-position: 50% 50%;
 }
 
-/*       28     */
-
 .titulo{ 
     color: olivedrab; 
     text-decoration: unset;  
@@ -103,3 +112,104 @@ a:active{
     line-height: 50px;   
     font-size: 20px;
 } 
+
+p strong {color: blue}
+
+p a{color: cornflowerblue}
+
+#definicion{
+    font-family: cursive; 
+}
+
+#anfi{
+    color: #8A8E27;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#formulario {
+    width: 75%;
+    background-color:darkorange;
+}
+
+.img1{
+    background-position: 50% 50%;
+    float:left;
+}
+.img2{
+    background-position: 50% 50%;
+    float:right;
+}
+.img3{
+    background-position: 50% 50%;
+    float:left;
+}
+.img4{
+    background-position: 50% 50%;
+    float:right;
+}
+.img5{
+    background-position: 50% 50%;
+    float:left;
+}
+
+#tabla{
+    width: 25%;
+    float: left;
+}
+
+#frm{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menuPrincipal{
+    border-width: 0px;
+    background-color: aqua;
+    width: 20%;
+    border: 5px blue ridge;
+    float: left;
+}
+
+#contenido {
+    width: 75%;
+    background-color: aqua;
+    margin: 0px 0px 0px 5px;
+    padding: 5px 20px 5px 20px;
+    border: 5px blue ridge;
+    float: left;
+}
+
+#footer{   
+    width: 100%; 
+    background-color: aqua; 
+    margin-top: 10px;    
+    margin-right: 10px;
+    border-width:10px;    
+    padding: 20px,20px; 
+    border: 5px blue ridge;
+    padding: 10px 200px 10px 200px;
+
+    border-top-style: double;  
+    border-bottom-style: double; 
+    border-right-style: double;  
+    border-left-style: double;     
+    float:left;
+}
+
+h4{
+    color: black;
+    font-weight: initial;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h5{
+    color: black;
+    font-weight: initial;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+
+h6{
+    color: black;
+    font-weight: initial;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
